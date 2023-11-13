@@ -58,5 +58,20 @@ code {
   margin-top: 50px;
 }
 
+@media (min-width: 768px) {
+  body {
+    flex-direction: row;
+  }
+  nav {
+    width: 30%;
+    margin: 10px; 
+  }
+  #main-doc {
+    width: 70%;
+    margin: 10px;
+  }
+}
+
+
 
 
